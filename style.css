@@ -1,0 +1,123 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#emergencyBtn {
+    background-color: #f00; /* Red background color for emergency alert button */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+#emergencyBtn:hover {
+    background-color: #d00; /* Darker red for hover effect */
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* Add the following code to the existing styles in your CSS file */
+
+#create-profile {
+    margin-top: 20px;
+}
+
+#create-profile form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#create-profile label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4CAF50;
+}
+
+#create-profile input[type="text"],
+#create-profile input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#create-profile input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#create-profile input[type="submit"]:hover {
+    background-color: #45a049;
+}

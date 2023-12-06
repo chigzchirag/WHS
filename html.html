@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHS - Winnipeg Healthcare Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>WHS - Winnipeg Healthcare Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#book">Book Appointment</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="emergencyBtn">Emergency Alert</button>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to WHS</h2>
+            <p>We offer a range of services and expertise in healthcare, from booking appointments to providing emergency alerts. We're here to help you maintain your health and wellbeing.</p>
+        </section>
+        <section id="create-profile">
+    <h2>Create a Profile</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        <br>
+        <input type="submit" value="Create Profile">
+    </form>
+</section>
+
+        <section id="book">
+            <h2>Book an Appointment</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <label for="appointment">Appointment Date:</label>
+                <input type="date" id="appointment" name="appointment" required>
+                <br>
+                <input type="submit" value="Book Appointment">
+            </form>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Doctor Consultations</li>
+                <li>Lab Tests</li>
+                <li>Medical Imaging</li>
+                <li>Vaccinations</li>
+                <li>Dental Check-ups</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or concerns, please don't hesitate to reach out to us. We're here to help!</p>
+            <p>Email: info@whs.ca</p>
+            <p>Phone: (204) 555-1234</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 WHS - Winnipeg Healthcare Solutions. All rights reserved.</p>
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+</html>
